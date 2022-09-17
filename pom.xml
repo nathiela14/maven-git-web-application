@@ -96,13 +96,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://3.98.54.52:8081/repository/lexus-app-releases//</url>
+	      <url>http://172.31.12.228:8081/repository/lexus-app-releases//</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.98.54.52:8081/repository/lexus-app-snapshots//paypal-snapshots/</url>
+	      <url>http://172.31.12.228:8081/repository/lexus-app-snapshots//paypal-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
