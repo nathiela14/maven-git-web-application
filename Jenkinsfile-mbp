@@ -1,7 +1,7 @@
 pipeline{
   agent any 
   tools {
-    maven "maven3.6.0"
+    maven "maven3.8.6"
   }  
   stages {
     stage('1GetCode'){
@@ -60,4 +60,5 @@ Landmark
 +1 437 215 2483''', recipientProviders: [buildUser(), developers()], subject: 'success', to: 'paypal-team@gmail.com'
     }
   }*/ 
+}
 }
